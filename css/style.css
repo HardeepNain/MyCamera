@@ -12,7 +12,7 @@ body{
     height: 100vh;
     width: 100vw;
     /* background: black; */
-    background-image: url('./hp-img.jpg');
+    background-image: url('../Img-Icons/hp-img.jpg');
     object-fit: center;
     repeat: no-repeat;
 }

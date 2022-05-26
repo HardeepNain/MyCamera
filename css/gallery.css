@@ -5,7 +5,7 @@
 }
 body{
     overflow: hidden;
-    background-image: url('./gp-img.jpg');
+    background-image: url('../Img-Icons/gp-img.jpg');
     object-fit: cover;
 }
 
