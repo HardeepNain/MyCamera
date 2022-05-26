@@ -8,7 +8,7 @@ let zoomOut = document.querySelector(".zoomOut");
 let galleryBtn = document.querySelector(".gallery-btn");
 
 galleryBtn.addEventListener("click" , function(){
-  window.location.assign("../public/gallery.html");   // it is used to load a new document(html).
+  window.location.assign("gallery.html");   // it is used to load a new document(html).
 })
 
 
