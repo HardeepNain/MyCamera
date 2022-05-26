@@ -15,4 +15,7 @@ dbOpenRequest.onerror = function (e) {
   alert("Inside on error !!");
 };
 
+/*
+Jaise hi hmara code run hoga to Gallery ke naam se indexedDB me ek database create ho jaayega
+*/
 

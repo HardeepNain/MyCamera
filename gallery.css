@@ -3,6 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow: hidden;
+    background-image: url('./gp-img.jpg');
+    object-fit: cover;
+}
 
 .gallery {
     display: flex;
@@ -15,19 +20,21 @@
 .media-div {
     height: 300px;
     width: 220px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     padding: 5px;
 }
 
 .media-img {
     width: 100%;
     height: 80%;
+    border-radius: 20px;
 }
 
 .media-video {
     width: 100%;
     height: 80%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .media-buttons {
@@ -43,16 +50,23 @@
     cursor: pointer;
 }
 
-.download-media {
+/* .download-media {
     background: lightblue;
     color: white;
+} */
+.fa-download{
+    color: darkgreen;
+    font-size: 25px;
 }
 
-.delete-media {
+/* .delete-media {
     background: red;
     color: white;
+} */
+.fa-trash-can{
+    color: red;
+    font-size: 25px;
 }
-
 .back {
     position: absolute;
     background: black;

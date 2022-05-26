@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PepSnap</title>
+    <title>Camera Lite</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,8 +15,9 @@
     />
   </head>
   <body>
-    <div class="video-container">
+    <div class="video-container neonBox">
       <video style="transform: scale(1)" autoplay></video>
+      <span></span><span></span><span></span><span></span>
     </div>
 
     <div class="video-filters">
@@ -42,9 +43,9 @@
       <div id="capture">
         <div class="inner-capture"></div>
       </div>
-      <div class="gallery-btn">Gallery</div>
     </div>
-
+    <div class="gallery-btn">Gallery</div>
+    
     <script src="./db.js"></script>
     <script src="./script.js"></script>
   </body>
