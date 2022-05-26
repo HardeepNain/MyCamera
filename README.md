@@ -1,4 +1,4 @@
-# MyCamera   &nbsp;    [live]()
+# MyCamera   <a href="" target="_blank"><img align="center" src="../../../../../Readme/Icons/icons8-external-link-64.png" alt="live link" height="30" width="40" /></a>
 
 Cameras have the ability to see everything. They capture moments of time and freeze them for later enjoyment. These devices revolutionized the way people perceived the world.
 
