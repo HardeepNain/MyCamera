@@ -11,10 +11,12 @@ body{
 .video-container {
     height: 100vh;
     width: 100vw;
-    /* background: black; */
-    background-image: url('../Img-Icons/hp-img.jpg');
-    object-fit: center;
-    repeat: no-repeat;
+    /* background: linear-gradient(90deg, gold, yellow); */
+    background-image: url('../Img-Icons/hp-gp-img.jpg');
+    /* object-fit: center; */
+    /* repeat: no-repeat; */
+    /* background-repeat : no-repeat; */
+    
 }
 
 video {
