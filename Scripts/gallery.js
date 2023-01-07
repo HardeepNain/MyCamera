@@ -56,7 +56,6 @@ function appendPhoto(mediaObj) {
     });
 
     document.querySelector(".gallery").append(mediaDiv);
-
 }
 
 function appendVideo(mediaObj) {

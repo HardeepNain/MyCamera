@@ -11,18 +11,18 @@ body{
 .video-container {
     height: 100vh;
     width: 100vw;
-    /* background: linear-gradient(90deg, gold, yellow); */
-    background-image: url('../Img-Icons/hp-gp-img.jpg');
-    /* object-fit: center; */
-    /* repeat: no-repeat; */
-    /* background-repeat : no-repeat; */
-    
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    /* Upper wali css ka link : https://www.gradientmagic.com/collection/carbonfiber/gradient/1602197911880 */
 }
 
 video {
     height: 100%;
     width: 100%;
-    
+    border-radius: 20%;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    background-image: radial-gradient(circle at 54% 50%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 14% 71%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 42% 48%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 97% 84%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 74% 70%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 65% 42%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 59% 88%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 10% 69%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 41% 72%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 59% 78%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),linear-gradient(180deg, rgb(65, 65, 65),rgb(230, 230, 230));
+    /* Upper wali css ka link : https://www.gradientmagic.com/collection/lensflare/gradient/1593789569044 */
 }
 
 .controls {
@@ -87,7 +87,7 @@ video {
     position: absolute;
     top: 10vh;
     /* border: 1px solid white; */
-    left: 10vh;
+    left: 15vh;
      z-index: 3;   /* jis element ka z-index jyda hoga wo uper dikhega. It can have a max value of 99 and default value of z-index for any element is 1.  */
     }
 
@@ -101,7 +101,7 @@ video {
     background-size: cover;
     background-blend-mode: soft-light;
     margin: 22px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .filter-div {

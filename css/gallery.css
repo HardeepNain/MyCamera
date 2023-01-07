@@ -5,8 +5,8 @@
 }
 body{
     overflow: hidden;
-    background-image: url('../Img-Icons/hp-gp-img.jpg');
-    object-fit: cover;
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    /* Upper wali css ka link : https://www.gradientmagic.com/collection/carbonfiber/gradient/1602197911880 */
 }
 
 .gallery {
