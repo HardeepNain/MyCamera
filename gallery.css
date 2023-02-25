@@ -3,11 +3,6 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    overflow: hidden;
-    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
-    /* Upper wali css ka link : https://www.gradientmagic.com/collection/carbonfiber/gradient/1602197911880 */
-}
 
 .gallery {
     display: flex;
@@ -20,21 +15,19 @@ body{
 .media-div {
     height: 300px;
     width: 220px;
-    /* border: 1px solid lightgray; */
+    border: 1px solid lightgray;
     padding: 5px;
 }
 
 .media-img {
     width: 100%;
     height: 80%;
-    border-radius: 20px;
 }
 
 .media-video {
     width: 100%;
     height: 80%;
     object-fit: cover;
-    border-radius: 20px;
 }
 
 .media-buttons {
@@ -50,23 +43,16 @@ body{
     cursor: pointer;
 }
 
-/* .download-media {
+.download-media {
     background: lightblue;
     color: white;
-} */
-.fa-download{
-    color: darkgreen;
-    font-size: 25px;
 }
 
-/* .delete-media {
+.delete-media {
     background: red;
     color: white;
-} */
-.fa-trash-can{
-    color: red;
-    font-size: 25px;
 }
+
 .back {
     position: absolute;
     background: black;
