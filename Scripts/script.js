@@ -11,6 +11,7 @@ galleryBtn.addEventListener("click" , function(){
   window.location.assign("gallery.html");   // it is used to load a new document(html).
 })
 
+
 let minZoom = 1;
 let maxZoom = 3.1; // hume 3 tak zoom chahiye tha aur points me 0.1 add krne pe 0.1 add nhi hota balki 0.1....something add hota hai to last time 2.9+0.1>3.0 ho jaata hai aur zoom inn 3 ki bjaye 2.9 tak hi jaa pata hai
 let currentZoom = 1;
