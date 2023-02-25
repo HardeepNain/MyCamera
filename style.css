@@ -3,7 +3,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+    overflow: hidden;
+}
 .video-container {
     height: 100vh;
     width: 100vw;
@@ -13,6 +15,7 @@
 video {
     height: 100%;
     width: 100%;
+    
 }
 
 .controls {
@@ -78,8 +81,8 @@ video {
     top: 10vh;
     /* border: 1px solid white; */
     left: 10vh;
-    z-index: 3;
-}
+     z-index: 3;   /* jis element ka z-index jyda hoga wo uper dikhega. It can have a max value of 99 and default value of z-index for any element is 1.  */
+    }
 
 .filter {
     height: 14vh;
@@ -96,7 +99,7 @@ video {
     position: absolute;
     top: 0px;
     height: 100vh;
-    width: 100vw;
+    width: 100vw
 }
 
 .zoom {
