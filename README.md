@@ -13,11 +13,11 @@ https://user-images.githubusercontent.com/88960105/224560702-847da969-3bb5-4dba-
 
 ## Features 📝
 
-- Users can capture images or record videos.
+- The application uses the `navigator interface` to access the user's web camera to capture images or record videos.
 - Users can capture images with different filters. 
 - The `Canvas API` is used to implement the zoom feature for images, so that users can zoom in upto 3X or zoom out. 
 - Application use `IndexedDB` database of the user's browser to store Media. Until user didn't clean cache of the browser media will hang there and user can visit media using gallery page. 
-- Users can delete unwanted media and download wanted ones from gallery page into your local system.
+- Users can delete unwanted media and download wanted ones from gallery page into their local system.
 
 
 ## Tech Stack ⚒
