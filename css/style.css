@@ -88,7 +88,7 @@ video {
     top: 10vh;
     /* border: 1px solid white; */
     left: 15vh;
-     z-index: 3;   /* jis element ka z-index jyda hoga wo uper dikhega. It can have a max value of 99 and default value of z-index for any element is 1.  */
+     z-index: 3;
     }
 
 .filter {
