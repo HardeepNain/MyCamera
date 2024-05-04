@@ -9,7 +9,7 @@ The application uses the `navigator interface` to access the user's web camera, 
 
 **For Better 👆 Quality Watch it on Youtube**
 
-https://user-images.githubusercontent.com/88960105/224560702-847da969-3bb5-4dba-bce8-71f395651540.mp4
+<!-- https://user-images.githubusercontent.com/88960105/224560702-847da969-3bb5-4dba-bce8-71f395651540.mp4 -->
 
 ## Features 📝
 
